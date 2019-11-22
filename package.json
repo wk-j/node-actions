@@ -1,0 +1,19 @@
+{
+    "name": "nodeactions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "parcel build src/index.html --public-url . --out-dir dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.4",
+        "parcel-bundler": "^1.12.4",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "typescript": "^3.7.2"
+    }
+}
